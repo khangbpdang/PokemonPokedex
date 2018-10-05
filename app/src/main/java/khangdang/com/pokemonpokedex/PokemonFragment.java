@@ -1,5 +1,6 @@
 package khangdang.com.pokemonpokedex;
 
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -67,7 +68,6 @@ public class PokemonFragment extends Fragment {
 
         return v;
     }
-
 
     public static PokemonFragment newInstance(UUID pokemonId) {
         Bundle args = new Bundle();
