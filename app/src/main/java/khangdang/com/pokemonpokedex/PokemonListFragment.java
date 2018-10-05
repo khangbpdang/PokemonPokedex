@@ -2,25 +2,25 @@ package khangdang.com.pokemonpokedex;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.support.v4.app.ListFragment;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
-
-import java.text.DateFormat;
 import java.util.ArrayList;
 
 public class PokemonListFragment extends ListFragment {
     private static final String TAG = "CrimeListFragment";
     private ArrayList<Pokemon> mPokemons;
 
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         getActivity().setTitle(R.string.pokemon_titles);
         mPokemons = PokemonCollection.get(getActivity()).getPokemons();
 
