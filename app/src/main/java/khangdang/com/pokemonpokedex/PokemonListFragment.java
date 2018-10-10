@@ -30,7 +30,7 @@ public class PokemonListFragment extends ListFragment {
     @Override
     public void onListItemClick(ListView l, View v, int position, long id) {
         Pokemon p = ((PokemonAdapter)getListAdapter()).getItem(position);
-        // Start CrimeActivity
+        // Start PokemonActivity
         Intent i = new Intent(getActivity(), PokemonActivity.class);
         i.putExtra(PokemonFragment.EXTRA_POKEMON_ID, p.getID());
         startActivity(i);
