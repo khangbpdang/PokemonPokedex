@@ -110,7 +110,8 @@
             android:layout_marginBottom="260dp"
             android:text="Pokemon HP"
             android:textColor="@color/HP"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:textAllCaps="true"/>
 
         <TextView
             android:id="@+id/pokemon_Attack"
@@ -127,7 +128,8 @@
             android:layout_marginBottom="220dp"
             android:text="Pokemon att"
             android:textColor="@color/Attack"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:textAllCaps="true"/>
 
         <TextView
             android:id="@+id/pokemon_Defense"
@@ -145,7 +147,8 @@
             android:layout_marginBottom="180dp"
             android:text="Pokemon def"
             android:textColor="@color/Defense"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:textAllCaps="true"/>
 
         <TextView
             android:id="@+id/pokemon_SpAtt"
@@ -162,7 +165,8 @@
             android:layout_marginBottom="140dp"
             android:text="Pokemon spatt"
             android:textColor="@color/SpAttack"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:textAllCaps="true"/>
 
         <TextView
             android:id="@+id/pokemon_SpDef"
@@ -179,7 +183,8 @@
             android:layout_marginBottom="100dp"
             android:text="Pokemon spdef"
             android:textColor="@color/SpDefense"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:textAllCaps="true"/>
 
 
         <TextView
@@ -197,7 +202,8 @@
             android:layout_marginBottom="60dp"
             android:text="Pokemon Spd"
             android:textColor="@color/Speed"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:textAllCaps="true"/>
 
 
     </RelativeLayout>

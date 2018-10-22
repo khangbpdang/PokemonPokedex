@@ -69,6 +69,7 @@ public class PokemonFragment extends Fragment {
         return v;
     }
 
+    
     public static PokemonFragment newInstance(UUID pokemonId) {
         Bundle args = new Bundle();
         args.putSerializable(EXTRA_POKEMON_ID, pokemonId);
